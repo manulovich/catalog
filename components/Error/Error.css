@@ -1,0 +1,22 @@
+.error-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.error-message{
+    min-width: 400px;
+    padding: 20px 40px;
+    text-align: center;
+    background-color: #f25b6b;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.error-message p{
+    margin: 20px 0px 0px 0px;
+}

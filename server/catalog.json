@@ -1,0 +1,50 @@
+[
+    {
+        "id": "el1",
+        "name": "mac 27-дюймов",
+        "img": "https://i.ibb.co/3d1pkkv/imac.jpg",
+        "price": 200000
+    },
+    {
+        "id": "el2",
+        "name": "ipad pro",
+        "img": "https://i.ibb.co/PYJykS3/ipad.webp",
+        "price": 100000
+    },
+    {
+        "id": "el3",
+        "name": "iphone 12",
+        "img": "https://i.ibb.co/K7SCtyP/iphone.jpg",
+        "price": 80000
+    },
+    {
+        "id": "el4",
+        "name": "watch",
+        "img": "https://i.ibb.co/YQwMLgb/watch.webp",
+        "price": 40000
+    },
+    {
+        "id": "el5",
+        "name": "mac pro",
+        "img": "https://i.ibb.co/925V8tL/mac-pro.jpg",
+        "price": 450000
+    },
+    {
+        "id": "el6",
+        "name": "mac mini",
+        "img": "https://i.ibb.co/xfS7q3j/mac-mini.jpg",
+        "price": 75000
+    },
+    {
+        "id": "el7",
+        "name": "macbook air",
+        "img": "https://i.ibb.co/qB3kbzj/macbook-air.webp",
+        "price": 120000
+    },
+    {
+        "id": "el8",
+        "name": "airpods",
+        "img": "https://i.ibb.co/nsnrzYd/airpods.webp",
+        "price": 25000
+    }
+]

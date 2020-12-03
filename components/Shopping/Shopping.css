@@ -1,0 +1,98 @@
+.shopping-element {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show {
+    display: block;
+}
+
+.shopping__bask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 50vh;
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.shopping__closed {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.shopping__closed span:before,
+.shopping__closed span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.shopping__closed span:before {
+    top: 10px;
+    transform: rotate(45deg);
+}
+
+.shopping__closed span:after {
+    bottom: 8px;
+    transform: rotate(-45deg);
+}
+
+.shopping__products-list {
+    margin: 0px 0px 20px 0px;
+}
+.shopping__products-list li,
+.shopping__count-price {
+    display: flex;
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.shopping__products-list li > div,
+.shopping__count-price > div {
+    flex: 0 0 50%;
+}
+.shopping__name {
+    text-transform: uppercase;
+}
+.shopping__name,
+.shopping__title {
+    font-weight: 700;
+}
+.shopping__price,
+.shopping__count {
+    color: rgba(0, 0, 0, 0.8);
+}
+.shopping__price:after,
+.shopping__count:after {
+    content: "rub";
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;
+}
+.shopping__count-price {
+    margin: 30px 0px 0px 0px;
+}
+.shopping__title {
+}
+.shopping__count {
+}
